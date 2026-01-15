@@ -10,7 +10,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
 
 # importing data
-df=pd.read_csv("PROJECTS/CustomerChurnForBusinesses/CustomerDataSet.csv")
+df=pd.read_csv("CustomerChurnForBusinesses/CustomerDataSet.csv")
 df= df.drop("CustomerID", axis=1)
 df=df.head(10000)
 print(df)
